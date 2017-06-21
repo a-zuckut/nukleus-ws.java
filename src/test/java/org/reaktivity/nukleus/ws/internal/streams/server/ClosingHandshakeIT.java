@@ -63,7 +63,6 @@ public class ClosingHandshakeIT
         k3po.finish();
     }
 
-    @Ignore("Aborted")
     @Test
     @Specification({
         "${route}/server/controller",
