@@ -62,7 +62,7 @@ public class ControlIT
         k3po.finish();
     }
 
-    @Ignore("Aborted?")
+    @Ignore("Aborted")
     @Test
     @Specification({
         "${route}/server/controller",
@@ -73,7 +73,7 @@ public class ControlIT
         k3po.finish();
     }
 
-    @Ignore("Aborted?")
+    @Ignore("Aborted")
     @Test
     @Specification({
         "${route}/server/controller",
@@ -84,7 +84,7 @@ public class ControlIT
         k3po.finish();
     }
 
-    @Ignore("Aborted?")
+    @Ignore("Aborted")
     @Test
     @Specification({
         "${route}/server/controller",
